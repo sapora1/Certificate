@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    }
+    body{
+      background-color:rgba(255, 0, 98,0.5);
+      font-size: large;
+  
+      color: rgb(0,0,0);
+    }
+    .column{
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    }
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    h1{
+      background-color: rgba(255, 0, 98,0.5);
+      font-family: "Sofia", sans-serif;
+      border-left: 20px solid rgb(255, 0, 98);
+    }
+    h2{
+      font-family: "Audiowide", sans-serif;
+      background-color: rgba(255, 0, 98,0.2);
+      border-left: 20px solid rgb(255, 0, 98);
+    }
